@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import { Box, Button } from '@mui/material';
 import './App.css';
+import Navbar from './components/Navbar';
+import Slideshow from './components/Slides';
+import CountDown from './components/Countdown';
+import SaveDate from './components/SaveDate';
+import GroomBrideCard from './components/GroomBrideCard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Box>
+        <Navbar />
+        <Slideshow />
+        <CountDown />
+        <SaveDate />
+        <GroomBrideCard />
+      </Box>
     </div>
   );
 }
