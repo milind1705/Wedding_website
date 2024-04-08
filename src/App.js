@@ -5,6 +5,7 @@ import Slideshow from './components/Slides';
 import CountDown from './components/Countdown';
 import SaveDate from './components/SaveDate';
 import GroomBrideCard from './components/GroomBrideCard';
+import GroomTeam from './components/GroomTeam';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <CountDown />
         <SaveDate />
         <GroomBrideCard />
+        <GroomTeam />
       </Box>
     </div>
   );
